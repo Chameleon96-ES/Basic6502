@@ -8,5 +8,7 @@
  * 3 - RXD (white)
  * 5 - TXD (green)
  
+ ![Pins drawing](uart_pins.jpg)
+ 
  After that, connect with your favorite terminal to the board whith 230400 Bauds 8 bit No Parity 1 Stop bit.
 
