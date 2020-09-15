@@ -9,9 +9,10 @@ output rts1;
 assign led = rxd1;
 
 
+
 Microcomputer6502Basic Microcomputer6502Basic
 (
-  .N_RESET (1'b1),
+  .N_RESET (1),
   .clk     (clk),
   .rxd1    (rxd1),
   .txd1    (txd1),
@@ -19,4 +20,4 @@ Microcomputer6502Basic Microcomputer6502Basic
 );
 
 
-endmodule 
+endmodule

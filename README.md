@@ -1,5 +1,7 @@
 # Basic6502
-6502 100Mhz running M$Basic on serial tty. 
+
+*MOS 6502*,*MC6809* and *Zilog Z80* running  M$Basic on a serial tty.
+
 
 # Connection.
  
