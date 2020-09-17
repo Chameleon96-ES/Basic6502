@@ -8,6 +8,9 @@ output rts1;
 
 assign led = rxd1;
 
+
+// Reset logic
+
 reg [3:0] rst_cnt;
 
 wire rst_n = rst_cnt[3];
@@ -18,6 +21,7 @@ always @(posedge clk)
 if( !rst_n )
     rst_cnt <= rst_cnt + 4'd1;
 	 
+// Basic Z80 Computer
 	 
 MicrocomputerZ80Basic MicrocomputerZ80Basic
 (
